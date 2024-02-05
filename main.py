@@ -3,7 +3,7 @@ from time import *        #kütüphanelerimizi İmport ediyoruz.
 import datetime
 
 root = Tk()
-root.title('Python ile saat')    #Program başlığnı ayarladık.
+root.title('Python ile saat')    #Program başlığını ayarladık.
 
 def saat():
     text = strftime('%H:%M:%S')
